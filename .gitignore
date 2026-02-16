@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/build/
+build/
+
+# Environment files
+.env
+*.env.local
+backend/.env
+frontend/.env
+
+# Logs
+*.log
+/var/log/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Database
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+.pytest_cache/
+coverage/
+*.swp
